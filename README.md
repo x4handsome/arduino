@@ -1,15 +1,10 @@
 # arduino
-// C++ code
-//
 int x=0;
 void setup()
 {
   pinMode(2, INPUT);
   pinMode(13, OUTPUT);
-
-  
 }
-
 void loop()
 {
   x = digitalRead(2);
